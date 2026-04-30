@@ -60,7 +60,7 @@ app.
 
 ## Governing law
 
-These terms are governed by the laws of the State of [YOUR STATE],
+These terms are governed by the laws of the State of Tennessee,
 United States.
 
 ## Changes
