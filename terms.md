@@ -19,8 +19,8 @@ or redistribute the app or its content.
 
 Stilla offers two subscription tiers:
 
-- **Annual** — 7-day free trial, then $69.99 per year
-- **Monthly** — $12.99 per month, no trial
+- **Annual** — 7-day free trial, then $29.99 per year
+- **Monthly** — $4.99 per month, no trial
 
 Subscriptions auto-renew at the listed price unless you cancel at least 24
 hours before the renewal date. Manage or cancel anytime in
