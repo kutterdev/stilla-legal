@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Stilla Support</title>
+<style>
+  :root {
+    color-scheme: light dark;
+    --bg: #FAF9F7;
+    --text: #1A1B3A;
+    --muted: #6B6D85;
+    --accent: #6B7AE0;
+    --card: #FFFFFF;
+    --border: rgba(0,0,0,0.08);
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #0E0F1F;
+      --text: #F1ECFF;
+      --muted: #9FA0B8;
+      --card: #181A2E;
+      --border: rgba(255,255,255,0.08);
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font: 16px/1.6 -apple-system, BlinkMacSystemFont, "SF Pro Display", system-ui, sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+  .wrap {
+    max-width: 640px;
+    margin: 0 auto;
+    padding: 80px 24px 64px;
+  }
+  .eyebrow {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 12px;
+    font-weight: 600;
+    color: var(--muted);
+    margin: 0 0 12px;
+  }
+  h1 {
+    font-size: 36px;
+    font-weight: 600;
+    letter-spacing: -0.5px;
+    margin: 0 0 16px;
+  }
+  .lead {
+    font-size: 18px;
+    color: var(--muted);
+    margin: 0 0 40px;
+  }
+  .card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    padding: 24px;
+    margin: 0 0 24px;
+  }
+  .card h2 {
+    margin: 0 0 8px;
+    font-size: 18px;
+    font-weight: 600;
+  }
+  .card p {
+    margin: 0 0 8px;
+    color: var(--muted);
+  }
+  a {
+    color: var(--accent);
+    text-decoration: none;
+    font-weight: 500;
+  }
+  a:hover { text-decoration: underline; }
+  .email {
+    display: inline-block;
+    margin-top: 4px;
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--text);
+  }
+  .footer {
+    margin-top: 48px;
+    padding-top: 24px;
+    border-top: 1px solid var(--border);
+    color: var(--muted);
+    font-size: 14px;
+  }
+  .footer a { color: var(--muted); margin-right: 16px; }
+</style>
+</head>
+<body>
+  <main class="wrap">
+    <p class="eyebrow">Stilla</p>
+    <h1>Support</h1>
+    <p class="lead">Need help, found a bug, or have a feature idea? We'd love to hear from you.</p>
+
+    <div class="card">
+      <h2>Email us</h2>
+      <p>The fastest way to get help is to email us directly. We usually reply within 24 hours.</p>
+      <a class="email" href="mailto:hi@kuttr.dev">hi@kuttr.dev</a>
+    </div>
+
+    <div class="card">
+      <h2>Common questions</h2>
+      <p><strong>How do I cancel my subscription?</strong> Open the iOS Settings app, tap your name, then Subscriptions, then Stilla, then Cancel Subscription. Your premium access stays active until the end of the current billing period.</p>
+      <p><strong>How do I restore a purchase on a new device?</strong> Open Stilla, go to Profile, then tap Restore purchases. Make sure you're signed into the same Apple ID you originally subscribed with.</p>
+      <p><strong>Where is my data stored?</strong> On your device, and synced silently through your private iCloud account. We have no servers and cannot read your sessions, favorites, or journal.</p>
+    </div>
+
+    <p class="footer">
+      <a href="/stilla-legal/privacy">Privacy</a>
+      <a href="/stilla-legal/terms">Terms</a>
+    </p>
+  </main>
+</body>
+</html>
